@@ -1,0 +1,12 @@
+$ bun install
+[0.01ms] ".env"
+bun install v1.3.14 (0d9b296a)
+
+$ node ./fix-deprecation.js && patch-package
+patch-package 8.0.1
+Applying patches...
+ghostty-web@0.4.0 ✔
+
+Checked 1558 installs across 1694 packages (no changes) [93.00ms]
+
+[exit 0]

@@ -1,0 +1,12 @@
+$ sed -n 1,120p /tmp/opencode/openchamber-install-xdg/applications/openchamber.desktop
+[Desktop Entry]
+Type=Application
+Name=OpenChamber
+Comment=Desktop runtime for OpenChamber
+Exec=/tmp/opencode/openchamber-install-home/.local/bin/openchamber-desktop %U
+Icon=openchamber
+Terminal=false
+Categories=Development;
+StartupWMClass=openchamber
+
+[exit 0]

@@ -1,0 +1,4 @@
+$ bun run --cwd packages/electron lint
+$ node -e "process.exit(0)"
+
+[exit 0]

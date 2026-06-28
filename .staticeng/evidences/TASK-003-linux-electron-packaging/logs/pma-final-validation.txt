@@ -1,0 +1,27 @@
+$ bash -n packages/electron/scripts/install-linux-appimage.sh
+[exit 0]
+
+$ bun run --cwd packages/electron type-check
+$ node --check ./main.mjs && node --check ./preload.mjs
+[exit 0]
+
+$ bun run --cwd packages/electron lint
+$ node -e "process.exit(0)"
+[exit 0]
+
+$ bun run --cwd packages/electron install:linux-appimage
+$ bash ./scripts/install-linux-appimage.sh
+Installed OpenChamber AppImage to /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage
+Installed launcher to /home/staticduo/.local/share/applications/openchamber.desktop
+Run from terminal with: /home/staticduo/.local/bin/openchamber-desktop
+[exit 0]
+
+$ desktop-file-validate /home/staticduo/.local/share/applications/openchamber.desktop
+[exit 0]
+
+$ ls -l /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage /home/staticduo/.local/bin/openchamber-desktop /home/staticduo/.local/share/applications/openchamber.desktop /home/staticduo/.local/share/icons/hicolor/256x256/apps/openchamber.png
+-rwxr-xr-x 1 staticduo staticduo        92 jun 28 19:00 /home/staticduo/.local/bin/openchamber-desktop
+-rwxr-xr-x 1 staticduo staticduo 147065509 jun 28 19:00 /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage
+-rw-r--r-- 1 staticduo staticduo       230 jun 28 19:00 /home/staticduo/.local/share/applications/openchamber.desktop
+-rw-r--r-- 1 staticduo staticduo     55246 jun 28 19:00 /home/staticduo/.local/share/icons/hicolor/256x256/apps/openchamber.png
+[exit 0]

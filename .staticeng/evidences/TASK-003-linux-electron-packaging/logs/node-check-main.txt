@@ -1,0 +1,2 @@
+$ node --check packages/electron/main.mjs
+zsh:1: read-only variable: status

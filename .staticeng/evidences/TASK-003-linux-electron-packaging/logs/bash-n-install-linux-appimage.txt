@@ -1,0 +1,2 @@
+$ bash -n packages/electron/scripts/install-linux-appimage.sh
+zsh:1: read-only variable: status

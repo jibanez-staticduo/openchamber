@@ -9,6 +9,12 @@ The desktop app has a built-in browser so you can open any page right next to yo
 
 > The desktop browser is a **desktop-only** feature. On the web, the [preview](/preview/) panel offers the same inspect-and-console tools for your local dev server.
 
+## Linux AppImage builds
+
+Linux desktop packaging starts with AppImage. Build it from the repository root with `bun run electron:build`; output is written to `packages/electron/dist`.
+
+For a local current-user install or update, run `bun run --cwd packages/electron install:linux-appimage` after building. The script installs the AppImage under `~/.local/opt/openchamber/`, writes `~/.local/share/applications/openchamber.desktop`, installs the `openchamber` icon, and refreshes desktop/icon caches when available. It does not install system-wide packages.
+
 ## Inspect and annotate
 
 Turn on **inspect** and click any element on the page. OpenChamber captures a note about it — what it is, its styles, where it sits, and a screenshot — and attaches it to your chat message. It's the quickest way to tell the agent "this element, right here."

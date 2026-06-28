@@ -1,6 +1,6 @@
 # OpenChamber Desktop
 
-Electron desktop runtime for OpenChamber on macOS and Windows.
+Electron desktop runtime for OpenChamber on macOS, Windows, and Linux.
 
 This package owns the native shell: windows, menus, deep links, native notifications, auto-updates, host switching, SSH connections, tunnel helpers, and packaged desktop builds. The web UI and OpenChamber server logic still live in `packages/web` and shared React UI lives in `packages/ui`.
 
@@ -64,7 +64,7 @@ That runs, in order:
 
 Build output goes to `packages/electron/dist`.
 
-macOS builds produce `dmg` and `zip` artifacts. Windows builds produce an NSIS installer.
+macOS builds produce `dmg` and `zip` artifacts. Windows builds produce an NSIS installer. Linux builds produce an AppImage first, with identity aligned as Linux `executableName=openchamber`, `openchamber.desktop`, `StartupWMClass=openchamber`, and `Icon=openchamber`.
 
 ## Platform Notes
 
@@ -72,7 +72,15 @@ macOS packaging needs Xcode/build tools for notarized builds and icon asset comp
 
 Windows packaging needs NSIS support through `electron-builder`. If no Windows signing env is set, `package.mjs` disables code signing and builds an unsigned installer.
 
-The package supports macOS and Windows desktop features. Some native discovery helpers are platform-specific. For example, app icon fetching and app filtering currently only work on macOS, while opening files in installed apps works on macOS and Windows.
+Linux packaging currently targets AppImage. After building on Linux, install or update the current user's launcher with:
+
+```bash
+bun run --cwd packages/electron install:linux-appimage
+```
+
+The script copies the newest AppImage from `packages/electron/dist` to `~/.local/opt/openchamber/OpenChamber.AppImage`, installs `~/.local/share/applications/openchamber.desktop`, installs the `openchamber` hicolor icon, and refreshes desktop/icon caches when those tools are available. It only installs for the current user.
+
+The package supports macOS, Windows, and Linux desktop features. Some native discovery helpers are platform-specific. For example, app icon fetching and app filtering currently only work on macOS, while opening files in installed apps works on macOS and Windows.
 
 ## Common Env Vars
 

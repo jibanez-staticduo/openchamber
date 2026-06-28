@@ -1,0 +1,3 @@
+$ bash -n packages/electron/scripts/install-linux-appimage.sh
+
+[exit 0]

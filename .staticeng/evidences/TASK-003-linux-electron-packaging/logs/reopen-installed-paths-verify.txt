@@ -1,0 +1,18 @@
+$ python3 verify installed OpenChamber AppImage paths
+/home/staticduo/.local/opt/openchamber/OpenChamber.AppImage: present
+/home/staticduo/.local/bin/openchamber-desktop: present
+/home/staticduo/.local/share/applications/openchamber.desktop: present
+/home/staticduo/.local/share/icons/hicolor/256x256/apps/openchamber.png: present
+
+--- openchamber.desktop ---
+[Desktop Entry]
+Type=Application
+Name=OpenChamber
+Comment=Desktop runtime for OpenChamber
+Exec=/home/staticduo/.local/bin/openchamber-desktop %U
+Icon=openchamber
+Terminal=false
+Categories=Development;
+StartupWMClass=openchamber
+
+[exit 0]

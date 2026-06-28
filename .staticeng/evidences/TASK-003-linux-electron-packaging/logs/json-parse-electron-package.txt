@@ -1,0 +1,4 @@
+$ node -e const fs=require('fs'); JSON.parse(fs.readFileSync('packages/electron/package.json','utf8')); console.log('packages/electron/package.json parsed')
+packages/electron/package.json parsed
+
+[exit 0]

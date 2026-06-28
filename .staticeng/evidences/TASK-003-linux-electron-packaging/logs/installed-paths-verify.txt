@@ -1,0 +1,10 @@
+$ test -f ~/.local/share/applications/openchamber.desktop && sed -n '1,20p' ~/.local/share/applications/openchamber.desktop || true
+No current-user openchamber.desktop installed
+
+$ test -e ~/.local/opt/openchamber/OpenChamber.AppImage && ls -l ~/.local/opt/openchamber/OpenChamber.AppImage || true
+No current-user AppImage at ~/.local/opt/openchamber/OpenChamber.AppImage
+
+$ test -e ~/.local/bin/openchamber-desktop && ls -l ~/.local/bin/openchamber-desktop || true
+No current-user wrapper at ~/.local/bin/openchamber-desktop
+
+[exit 0]

@@ -48,6 +48,9 @@ const shouldStartInBackground = (loginItemSettings = readLoginItemSettings()) =>
 // Set the product name early so electron-log derives its log directory as
 // ~/Library/Logs/OpenChamber/ (not ~/Library/Logs/@openchamber/electron/).
 app.setName('OpenChamber');
+if (process.platform === 'linux') {
+  app.setDesktopName('openchamber.desktop');
+}
 if (isDev) {
   app.setPath('userData', path.join(app.getPath('appData'), 'OpenChamber Dev'));
 }
@@ -1889,13 +1892,19 @@ const readThemeSource = () => {
 };
 
 const getWindowIconPath = () => {
-  if (process.platform !== 'win32' && process.platform !== 'linux') {
-    return undefined;
+  if (process.platform === 'win32') {
+    const iconPath = isDev
+      ? path.join(__dirname, 'resources', 'icons', 'icon.ico')
+      : path.join(process.resourcesPath, 'icons', 'icon.ico');
+    return fs.existsSync(iconPath) ? iconPath : undefined;
   }
-  const iconPath = isDev
-    ? path.join(__dirname, 'resources', 'icons', 'icon.ico')
-    : path.join(process.resourcesPath, 'icons', 'icon.ico');
-  return fs.existsSync(iconPath) ? iconPath : undefined;
+  if (process.platform === 'linux') {
+    const iconPath = isDev
+      ? path.join(__dirname, 'resources', 'icons', 'icon.png')
+      : path.join(process.resourcesPath, 'icons', 'icon.png');
+    return fs.existsSync(iconPath) ? iconPath : undefined;
+  }
+  return undefined;
 };
 
 const canUseTitleBarOverlay = (browserWindow) => (

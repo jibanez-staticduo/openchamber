@@ -1,0 +1,4 @@
+$ node --input-type=module
+Reopened Linux packaging identity checks passed
+
+[exit 0]

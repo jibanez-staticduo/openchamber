@@ -94,7 +94,14 @@ Windows:
 bun run electron:build
 ```
 
-Linux is supported for web/CLI development. A Linux desktop app is still planned, so Electron packaging is mainly macOS and Windows right now.
+Linux:
+
+```bash
+bun run electron:build
+bun run --cwd packages/electron install:linux-appimage
+```
+
+Linux desktop packaging currently targets AppImage. The local install script installs the AppImage and `openchamber.desktop` launcher for the current user only.
 
 ## Before Submitting
 

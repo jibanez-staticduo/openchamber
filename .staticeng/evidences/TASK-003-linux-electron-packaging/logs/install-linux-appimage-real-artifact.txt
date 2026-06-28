@@ -1,0 +1,4 @@
+$ if compgen -G "packages/electron/dist/*.AppImage" >/dev/null; then bun run --cwd packages/electron install:linux-appimage; else echo "SKIP: no AppImage exists in packages/electron/dist after failed build"; exit 1; fi
+SKIP: no AppImage exists in packages/electron/dist after failed build
+
+[exit 1]

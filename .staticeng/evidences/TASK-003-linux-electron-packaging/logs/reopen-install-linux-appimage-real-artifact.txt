@@ -1,0 +1,7 @@
+$ bun run --cwd packages/electron install:linux-appimage
+$ bash ./scripts/install-linux-appimage.sh
+Installed OpenChamber AppImage to /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage
+Installed launcher to /home/staticduo/.local/share/applications/openchamber.desktop
+Run from terminal with: /home/staticduo/.local/bin/openchamber-desktop
+
+[exit 0]

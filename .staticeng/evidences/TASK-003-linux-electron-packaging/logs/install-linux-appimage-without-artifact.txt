@@ -1,0 +1,5 @@
+$ bash packages/electron/scripts/install-linux-appimage.sh
+No AppImage found in /home/staticduo/git/openchamber/packages/electron/dist
+Build one first with: bun run electron:build
+
+[exit 1]

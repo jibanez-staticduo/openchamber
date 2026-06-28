@@ -1,0 +1,3 @@
+$ node --input-type=module <<'CHECK'
+Linux packaging identity checks passed
+zsh:18: read-only variable: status

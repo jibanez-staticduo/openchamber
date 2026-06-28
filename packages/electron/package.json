@@ -31,6 +31,7 @@
     "generate:macos-icon": "node ./scripts/generate-macos-icon-assets.cjs",
     "rebuild:native": "node ./scripts/rebuild-native.mjs",
     "package": "bun run build:web-assets && bun run bundle:main && bun run rebuild:native && node ./scripts/package.mjs",
+    "install:linux-appimage": "bash ./scripts/install-linux-appimage.sh",
     "finalize:latest-yml": "node ./scripts/finalize-latest-yml.mjs",
     "type-check": "node --check ./main.mjs && node --check ./preload.mjs",
     "lint": "node -e \"process.exit(0)\""
@@ -50,6 +51,10 @@
       {
         "from": "resources/icons/icon.ico",
         "to": "icons/icon.ico"
+      },
+      {
+        "from": "resources/icons/icon.png",
+        "to": "icons/icon.png"
       },
       {
         "from": "resources/icons/tray",
@@ -87,6 +92,23 @@
       ],
       "verifyUpdateCodeSignature": false,
       "artifactName": "${productName}-${version}-win-${arch}.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Development",
+      "icon": "resources/icons/icon.png",
+      "executableName": "openchamber",
+      "artifactName": "${productName}-${version}-linux-${arch}.${ext}",
+      "desktop": {
+        "entry": {
+          "Name": "OpenChamber",
+          "Comment": "Desktop runtime for OpenChamber",
+          "Icon": "openchamber",
+          "StartupWMClass": "openchamber"
+        }
+      }
     },
     "nsis": {
       "oneClick": true,

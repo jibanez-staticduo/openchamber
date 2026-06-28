@@ -1,0 +1,4 @@
+$ bun run --cwd packages/electron type-check
+$ node --check ./main.mjs && node --check ./preload.mjs
+
+[exit 0]

@@ -1,13 +1,17 @@
-# DISCUSSION-002 - Plan Linux Desktop App For OpenChamber Host Selector
+# DISCUSSION-002 - OpenChamber Linux Desktop App
 
 ## Summary
-The user asked why OpenChamber's Chrome-installed Linux PWA lacks the host selector available in macOS/Windows apps, and how difficult it would be to build a Linux app with the same selector.
+The user asked to implement a Linux Electron app for OpenChamber so Linux has the same desktop host selector as macOS/Windows, while keeping the branch clean enough to merge upstream updates.
 
 ## Outcome
-- Classified as `standard` / `investigation` / `foundation`.
-- Created and completed `TASK-002-linux-desktop-feasibility`.
-- Determined that the host selector depends on Electron preload globals and IPC, not normal browser/PWA APIs.
-- Determined that Linux support is mainly a packaging/release gap; the desktop host selector architecture is already largely platform-neutral.
+- Configured fork workflow with `origin` as `jibanez-staticduo/openchamber` and `upstream` as `openchamber/openchamber` with push disabled.
+- Created `SCR-001-linux-electron-desktop` and completed `TASK-003-linux-electron-packaging`.
+- Added AppImage-first Linux Electron packaging with stable Linux identity: `openchamber`, `openchamber.desktop`, `StartupWMClass=openchamber`, and `Icon=openchamber`.
+- Added a current-user AppImage install script and installed the built app locally.
 
-## Recommended Follow-Up
-Create a standard implementation task for a Linux Electron packaging spike targeting AppImage first, then optional deb/rpm and release updater support.
+## Validation
+- `bun run electron:build` passed and produced `packages/electron/dist/OpenChamber-1.13.7-linux-x86_64.AppImage`.
+- `bun run --cwd packages/electron install:linux-appimage` installed the app under `~/.local/opt/openchamber/`, wrapper under `~/.local/bin/openchamber-desktop`, launcher under `~/.local/share/applications/openchamber.desktop`, and icon under hicolor.
+
+## Follow-Up
+Launch from app grid or run `~/.local/bin/openchamber-desktop` and visually verify GNOME dock grouping and host selector availability.

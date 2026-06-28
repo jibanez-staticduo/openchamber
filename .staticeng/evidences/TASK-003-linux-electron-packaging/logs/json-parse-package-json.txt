@@ -1,0 +1,5 @@
+$ node -e "const fs=require(\"node:fs\"); for (const file of [\"package.json\",\"packages/electron/package.json\"]) { JSON.parse(fs.readFileSync(file,\"utf8\")); console.log(file+\": JSON parse passed\"); }"
+package.json: JSON parse passed
+packages/electron/package.json: JSON parse passed
+
+[exit 0]

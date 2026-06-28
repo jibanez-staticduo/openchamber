@@ -1,0 +1,6 @@
+$ HOME=/tmp/opencode/openchamber-install-home XDG_DATA_HOME=/tmp/opencode/openchamber-install-xdg bash packages/electron/scripts/install-linux-appimage.sh packages/electron/dist /tmp/opencode/openchamber-test.AppImage
+Installed OpenChamber AppImage to /tmp/opencode/openchamber-install-home/.local/opt/openchamber/OpenChamber.AppImage
+Installed launcher to /tmp/opencode/openchamber-install-xdg/applications/openchamber.desktop
+Run from terminal with: /tmp/opencode/openchamber-install-home/.local/bin/openchamber-desktop
+
+[exit 0]
