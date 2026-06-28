@@ -1,0 +1,8 @@
+# Copy integrity
+Local source checksums:
+3d31f61c8503781694a610d918bc1b49f9fb60606f42e38df6373386f8a3a4fd  /home/staticduo/git/openchamber/packages/electron/dist/OpenChamber-1.13.7-linux-x86_64.AppImage
+80fbfbd1c2ff821d72b8c64fbad62e63c2724940d233025f398807adf6f04980  /home/staticduo/git/openchamber/packages/electron/resources/icons/icon.png
+
+Remote installed checksums:
+3d31f61c8503781694a610d918bc1b49f9fb60606f42e38df6373386f8a3a4fd  /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage
+80fbfbd1c2ff821d72b8c64fbad62e63c2724940d233025f398807adf6f04980  /home/staticduo/.local/share/icons/hicolor/256x256/apps/openchamber.png

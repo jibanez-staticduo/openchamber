@@ -1,0 +1,3 @@
+-rwxr-xr-x. 1 staticduo staticduo 92 Jun 29 01:05 /home/staticduo/.local/bin/openchamber-desktop
+#!/usr/bin/env bash
+exec "/home/staticduo/.local/opt/openchamber/OpenChamber.AppImage" "$@"

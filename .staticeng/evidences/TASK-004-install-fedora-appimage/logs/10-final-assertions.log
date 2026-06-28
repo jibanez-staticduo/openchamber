@@ -1,0 +1,4 @@
+Exec="/home/staticduo/.local/bin/openchamber-desktop" %U
+Icon=openchamber
+StartupWMClass=openchamber
+final-assertions: PASS

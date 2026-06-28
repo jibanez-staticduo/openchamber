@@ -1,0 +1,6 @@
+remote_user=staticduo
+home=/home/staticduo
+Linux fedora 7.0.13-200.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Jun 19 22:51:30 UTC 2026 x86_64 GNU/Linux
+/usr/bin/desktop-file-validate
+/usr/bin/update-desktop-database
+/usr/bin/gtk-update-icon-cache
