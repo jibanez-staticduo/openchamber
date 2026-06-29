@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: Icon.tsx
+  - path: README.md
+  - path: icons.ts
+  - path: sprite.ts

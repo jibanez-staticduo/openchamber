@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: api.js
+  - path: auth.js
+  - path: transforms.js

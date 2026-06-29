@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../.staticeng/codemap.yml
+entrypoints:
+  - path: main.tsx
+internals:
+  - path: requestBodyTransport.test.ts
+  - path: requestBodyTransport.ts
+  - path: tsconfig.json

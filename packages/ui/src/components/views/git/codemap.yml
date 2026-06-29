@@ -1,0 +1,28 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: AIHighlightsBox.tsx
+  - path: BranchIntegrationSection.tsx
+  - path: BranchSelector.tsx
+  - path: ChangeRow.tsx
+  - path: ChangesPanel.tsx
+  - path: CommitInput.tsx
+  - path: CommitSection.tsx
+  - path: ConflictDialog.tsx
+  - path: GitEmptyState.tsx
+  - path: GitGraphSegment.tsx
+  - path: GitHeader.tsx
+  - path: HistoryCommitRow.tsx
+  - path: HistorySection.tsx
+  - path: InProgressOperationBanner.tsx
+  - path: IntegrateCommitsSection.tsx
+  - path: PullRequestSection.tsx
+  - path: StashDialog.tsx
+  - path: StashesDialog.tsx
+  - path: SyncActions.tsx
+  - path: WorktreeBranchDisplay.tsx
+  - path: changesTree.ts
+  - path: gitGraph.test.ts
+  - path: gitGraph.ts
+  - path: gitIndexMutationQueue.test.ts
+  - path: gitIndexMutationQueue.ts

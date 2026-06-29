@@ -67,3 +67,14 @@ data/
 workspaces/
 *.pid
 .worktrees/
+
+# StaticEng local/private state
+.staticeng/.config/
+.staticeng/**/.env
+.staticeng/**/.env.*
+.staticeng/**/*.env
+.staticeng/**/*secret*
+.staticeng/**/*secrets*
+.staticeng/**/*token*
+.staticeng/**/*credential*
+.staticeng/**/*credentials*

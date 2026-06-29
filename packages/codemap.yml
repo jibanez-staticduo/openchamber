@@ -1,0 +1,13 @@
+scope: module
+parent: ../.staticeng/codemap.yml
+modules:
+  - path: docs
+    summary: Documentation package.
+  - path: electron
+    summary: Electron desktop shell and Linux packaging.
+  - path: ui
+    summary: Shared React UI package.
+  - path: vscode
+    summary: VS Code extension package.
+  - path: web
+    summary: Web app, server, and CLI package.

@@ -1,0 +1,48 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+purpose: Shared React UI components grouped by feature and primitive ownership.
+modules:
+  - path: auth
+    summary: Authentication UI components.
+  - path: chat
+    summary: Chat surface components.
+  - path: code
+    summary: Code rendering and editor-adjacent components.
+  - path: comments
+    summary: Comment UI components.
+  - path: desktop
+    summary: Desktop-specific UI components.
+  - path: diagram
+    summary: Diagram rendering components.
+  - path: icon
+    summary: Shared icon component infrastructure.
+  - path: icons
+    summary: Icon-related UI components.
+  - path: layout
+    summary: Application layout components.
+  - path: mcp
+    summary: MCP UI components.
+  - path: mini-chat
+    summary: Mini chat UI components.
+  - path: model-picker
+    summary: Model selection UI.
+  - path: multirun
+    summary: Multi-run UI components.
+  - path: onboarding
+    summary: Onboarding UI components.
+  - path: providers
+    summary: Provider management UI.
+  - path: sections
+    summary: Settings and configuration sections.
+  - path: session
+    summary: Session UI components.
+  - path: terminal
+    summary: Terminal UI components.
+  - path: ui
+    summary: Shared UI primitives.
+  - path: update
+    summary: Update notification UI.
+  - path: views
+    summary: Top-level app views.
+  - path: voice
+    summary: Voice UI components.

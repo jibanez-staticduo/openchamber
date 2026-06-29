@@ -1,0 +1,7 @@
+scope: module
+parent: ../../.staticeng/codemap.yml
+internals:
+  - path: CONTRIBUTING.md
+  - path: DEPLOYMENT.md
+  - path: README.md
+  - path: sidebar.config.json

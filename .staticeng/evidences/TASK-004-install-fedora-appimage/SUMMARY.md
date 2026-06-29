@@ -13,24 +13,24 @@ OpenChamber AppImage was installed on SSH host `fedora` for the current `staticd
 
 ## Acceptance Criteria
 
-- AC-1: PASS. AppImage is present and executable at `/home/staticduo/.local/opt/openchamber/OpenChamber.AppImage`; final remote `ls -l` shows mode `-rwxr-xr-x`. See `logs/09-remote-validation-final.log`.
-- AC-2: PASS. Wrapper exists and is executable at `/home/staticduo/.local/bin/openchamber-desktop`; it execs `/home/staticduo/.local/opt/openchamber/OpenChamber.AppImage`. See `logs/09-remote-validation-final.log`.
-- AC-3: PASS. Desktop launcher exists at `/home/staticduo/.local/share/applications/openchamber.desktop` with `Exec="/home/staticduo/.local/bin/openchamber-desktop" %U`, `Icon=openchamber`, and `StartupWMClass=openchamber`; `desktop-file-validate` passed. See `logs/09-remote-validation-final.log`.
-- AC-4: PASS. Icon exists at `/home/staticduo/.local/share/icons/hicolor/256x256/apps/openchamber.png`; checksum matches local source icon. See `logs/07-copy-integrity.log` and `logs/09-remote-validation-final.log`.
-- AC-5: PASS. Evidence logs capture SSH preflight, remote directory creation, SCP copies, install generation, copy integrity, final verification, and final assertions. See `logs/01-ssh-preflight.log` through `logs/10-final-assertions.log`.
+- AC-1: PASS. AppImage is present and executable at `/home/staticduo/.local/opt/openchamber/OpenChamber.AppImage`; final remote `ls -l` shows mode `-rwxr-xr-x`. See `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/09-remote-validation-final.log`.
+- AC-2: PASS. Wrapper exists and is executable at `/home/staticduo/.local/bin/openchamber-desktop`; it execs `/home/staticduo/.local/opt/openchamber/OpenChamber.AppImage`. See `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/09-remote-validation-final.log`.
+- AC-3: PASS. Desktop launcher exists at `/home/staticduo/.local/share/applications/openchamber.desktop` with `Exec="/home/staticduo/.local/bin/openchamber-desktop" %U`, `Icon=openchamber`, and `StartupWMClass=openchamber`; `desktop-file-validate` passed. See `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/09-remote-validation-final.log`.
+- AC-4: PASS. Icon exists at `/home/staticduo/.local/share/icons/hicolor/256x256/apps/openchamber.png`; checksum matches local source icon. See `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/07-copy-integrity.log` and `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/09-remote-validation-final.log`.
+- AC-5: PASS. Evidence logs capture SSH preflight, remote directory creation, SCP copies, install generation, copy integrity, final verification, and final assertions. See `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/01-ssh-preflight.log` through `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/10-final-assertions.log`.
 
 ## Evidence Logs
 
-- `logs/01-ssh-preflight.log`: SSH host/user/home check and available validation tools.
-- `logs/02-remote-create-dirs.log`: User-local target directory creation/verification.
-- `logs/03-scp-appimage.log`: AppImage SCP command output.
-- `logs/04-scp-icon.log`: Icon SCP command output.
-- `logs/05-remote-install-wrapper-desktop.log`: Initial remote install path listing.
-- `logs/06-remote-validation.log`: Initial remote validation before wrapper path normalization.
-- `logs/07-copy-integrity.log`: Local and remote SHA-256 checksums for AppImage and icon.
-- `logs/08-remote-wrapper-absolute-path.log`: Wrapper normalized to absolute AppImage path.
-- `logs/09-remote-validation-final.log`: Final path listing, wrapper/desktop contents, desktop validation, desktop database update, and icon cache update.
-- `logs/10-final-assertions.log`: Final exact assertions for executable paths, required desktop keys, and desktop validation.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/01-ssh-preflight.log`: SSH host/user/home check and available validation tools.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/02-remote-create-dirs.log`: User-local target directory creation/verification.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/03-scp-appimage.log`: AppImage SCP command output.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/04-scp-icon.log`: Icon SCP command output.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/05-remote-install-wrapper-desktop.log`: Initial remote install path listing.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/06-remote-validation.log`: Initial remote validation before wrapper path normalization.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/07-copy-integrity.log`: Local and remote SHA-256 checksums for AppImage and icon.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/08-remote-wrapper-absolute-path.log`: Wrapper normalized to absolute AppImage path.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/09-remote-validation-final.log`: Final path listing, wrapper/desktop contents, desktop validation, desktop database update, and icon cache update.
+- `.staticeng/evidences/TASK-004-install-fedora-appimage/logs/10-final-assertions.log`: Final exact assertions for executable paths, required desktop keys, and desktop validation.
 
 ## Validation Commands
 

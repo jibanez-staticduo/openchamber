@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../.staticeng/codemap.yml
+purpose: Electron packaged resources used by desktop builds.
+internals:
+  - path: entitlements.mac.plist
+modules:
+  - path: icons
+    summary: Desktop app icons and tray assets.
+  - path: web-dist
+    summary: Packaged web UI distribution assets.

@@ -1,0 +1,16 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: event-pipeline-online.test.js
+  - path: event-pipeline-permanent-error.test.js
+  - path: event-pipeline-resume.test.js
+  - path: event-pipeline.bench.js
+  - path: event-pipeline.test.js
+  - path: event-reducer.test.js
+  - path: event-reducer.test.ts
+  - path: eviction.test.ts
+  - path: live-aggregate.test.js
+  - path: materialization.test.ts
+  - path: session-prefetch-cache.test.ts
+  - path: session-status-snapshot.test.ts
+  - path: session-switch-resync.test.ts

@@ -1,0 +1,9 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: AgentGroupDetail.tsx
+  - path: AgentManagerEmptyState.tsx
+  - path: AgentManagerSidebar.tsx
+  - path: AgentManagerView.tsx

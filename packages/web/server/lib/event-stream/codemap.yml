@@ -1,0 +1,16 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: DOCUMENTATION.md
+  - path: directory-ws-bridge.js
+  - path: global-hub.js
+  - path: global-hub.test.js
+  - path: global-ws-bridge.js
+  - path: protocol.js
+  - path: protocol.test.js
+  - path: runtime.js
+  - path: runtime.test.js
+  - path: upstream-reader.js
+  - path: upstream-reader.test.js

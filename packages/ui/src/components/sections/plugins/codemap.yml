@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: AddPluginDialog.tsx
+  - path: PluginsPage.tsx
+  - path: PluginsSidebar.tsx
+  - path: RegistryBadge.tsx
+  - path: RegistryBanner.tsx

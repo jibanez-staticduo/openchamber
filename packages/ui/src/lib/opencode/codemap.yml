@@ -1,0 +1,6 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: client.test.ts
+  - path: client.ts
+  - path: provider-tracker.ts

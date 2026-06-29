@@ -1,0 +1,6 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: appThemeRegistry.ts
+  - path: textMateThemeFromAppTheme.ts
+  - path: vscodeTextMateTheme.ts

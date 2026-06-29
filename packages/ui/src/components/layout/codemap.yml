@@ -1,0 +1,20 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: BottomTerminalDock.tsx
+  - path: ContextPanel.tsx
+  - path: ContextSidebarTab.tsx
+  - path: Header.tsx
+  - path: MainLayout.tsx
+  - path: ProjectActionsButton.tsx
+  - path: ProjectEditDialog.tsx
+  - path: RightSidebar.tsx
+  - path: RightSidebarTabs.tsx
+  - path: Sidebar.tsx
+  - path: SidebarFilesTree.tsx
+  - path: SidebarTopBar.tsx
+  - path: TitlebarLeftControls.tsx
+  - path: VSCodeLayout.tsx
+  - path: contextPanelEmbeddedChat.test.ts
+  - path: contextPanelEmbeddedChat.ts
+  - path: rawMessagePreview.ts

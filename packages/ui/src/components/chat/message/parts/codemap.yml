@@ -1,0 +1,29 @@
+scope: module
+parent: ../../../../../../../.staticeng/codemap.yml
+internals:
+  - path: AssistantTextPart.tsx
+  - path: BusyDots.tsx
+  - path: DOCUMENTATION.md
+  - path: GeneratedJsonResultCard.tsx
+  - path: JustificationBlock.tsx
+  - path: MinDurationShineText.tsx
+  - path: ProgressiveGroup.tsx
+  - path: ReasoningPart.test.tsx
+  - path: ReasoningPart.tsx
+  - path: ToolPart.test.ts
+  - path: ToolPart.tsx
+  - path: ToolRevealOnMount.tsx
+  - path: UserTextPart.test.ts
+  - path: UserTextPart.tsx
+  - path: VirtualizedCodeBlock.tsx
+  - path: WorkingPlaceholder.tsx
+  - path: assistantTextVisibility.ts
+  - path: generatedJsonResult.ts
+  - path: resolveFallbackTaskSessionId.ts
+  - path: taskSessionIdParser.ts
+  - path: toolDiffUtils.test.ts
+  - path: toolDiffUtils.ts
+  - path: toolPresentation.tsx
+  - path: toolRenderUtils.ts
+  - path: useDurationTicker.ts
+  - path: userTextPartContent.ts

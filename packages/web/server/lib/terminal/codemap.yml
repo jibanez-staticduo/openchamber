@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: DOCUMENTATION.md
+  - path: output-replay-buffer.js
+  - path: output-replay-buffer.test.js
+  - path: runtime.js
+  - path: runtime.test.js
+  - path: terminal-ws-protocol.js
+  - path: terminal-ws-protocol.test.js

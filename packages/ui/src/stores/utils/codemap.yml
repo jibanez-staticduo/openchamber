@@ -1,0 +1,12 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: contextUtils.ts
+  - path: permissionAutoAccept.test.ts
+  - path: permissionAutoAccept.ts
+  - path: permissionUtils.ts
+  - path: safeStorage.test.ts
+  - path: safeStorage.ts
+  - path: streamDebug.ts
+  - path: tokenUtils.test.ts
+  - path: tokenUtils.ts

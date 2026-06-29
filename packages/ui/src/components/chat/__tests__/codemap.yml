@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: attachmentCitations.test.ts
+  - path: fileMentionAutocompleteState.test.ts
+  - path: questionSerializers.test.ts
+  - path: questionTextareaSizing.test.ts

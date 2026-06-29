@@ -1,0 +1,18 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: clientAuth.ts
+  - path: files.test.ts
+  - path: files.ts
+  - path: git.test.ts
+  - path: git.ts
+  - path: github.ts
+  - path: notifications.test.ts
+  - path: notifications.ts
+  - path: permissions.ts
+  - path: push.ts
+  - path: settings.ts
+  - path: terminal.ts
+  - path: tools.ts

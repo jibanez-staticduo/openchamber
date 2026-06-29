@@ -1,0 +1,6 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: patchFileDiff.test.ts
+  - path: patchFileDiff.ts
+  - path: workerFactory.ts

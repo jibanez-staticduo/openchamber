@@ -1,0 +1,11 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: CodeMirrorCommentWidgets.tsx
+  - path: InlineCommentCard.tsx
+  - path: InlineCommentInput.tsx
+  - path: PierreDiffCommentOverlays.tsx
+  - path: PierreDiffCommentUtils.ts
+  - path: useInlineCommentController.ts

@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: ScrollToBottomButton.tsx
+  - path: TurnActivity.tsx
+  - path: TurnAssistantBlock.tsx
+  - path: TurnItem.tsx

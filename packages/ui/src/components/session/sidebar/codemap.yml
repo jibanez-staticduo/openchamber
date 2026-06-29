@@ -1,0 +1,19 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: BulkActionBar.tsx
+  - path: ConfirmDialogs.tsx
+  - path: DOCUMENTATION.md
+  - path: SessionGroupSection.tsx
+  - path: SessionNodeItem.tsx
+  - path: SidebarActivitySections.tsx
+  - path: SidebarFooter.tsx
+  - path: SidebarHeader.tsx
+  - path: SidebarProjectsList.tsx
+  - path: activitySections.ts
+  - path: sessionFolderDnd.tsx
+  - path: sessionNodeItemUtils.ts
+  - path: sortableItems.tsx
+  - path: types.ts
+  - path: utils.test.ts
+  - path: utils.tsx

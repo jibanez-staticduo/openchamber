@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: DOCUMENTATION.md
+  - path: routes.js
+  - path: runtime.js
+  - path: runtime.test.js

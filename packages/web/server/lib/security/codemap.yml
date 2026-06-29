@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: bind-host.js
+  - path: bind-host.test.js
+  - path: request-security.js
+  - path: request-security.test.js

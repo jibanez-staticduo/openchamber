@@ -1,0 +1,11 @@
+scope: module
+parent: ../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: TERMINAL_WS_PROTOCOL.md
+  - path: index.d.ts
+  - path: opencode-proxy.test.js
+  - path: proxy-headers.js
+  - path: proxy-headers.test.js
+  - path: sse-routes.test.js

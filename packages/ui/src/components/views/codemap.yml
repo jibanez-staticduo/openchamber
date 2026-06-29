@@ -1,0 +1,16 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: ChatView.tsx
+  - path: DiagramView.tsx
+  - path: DiffView.tsx
+  - path: FilesView.tsx
+  - path: GitView.tsx
+  - path: GoToLineDialog.tsx
+  - path: MultiRunWindow.tsx
+  - path: PierreDiffViewer.tsx
+  - path: PlanView.tsx
+  - path: PreviewToggleButton.tsx
+  - path: SettingsView.tsx
+  - path: SettingsWindow.tsx
+  - path: TerminalView.tsx

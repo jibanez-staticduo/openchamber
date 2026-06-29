@@ -1,0 +1,14 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: audioStreamService.ts
+  - path: browserVoiceService.ts
+  - path: contextFormatters.ts
+  - path: summarize.ts
+  - path: voiceConfig.ts
+  - path: voiceHooks.ts
+  - path: voiceSession.ts
+  - path: wasmSttService.ts
+  - path: wasmSttWorker.ts

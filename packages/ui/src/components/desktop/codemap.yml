@@ -1,0 +1,6 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: DesktopHostSwitcher.tsx
+  - path: OpenInAppButton.tsx
+  - path: WindowsWindowControls.tsx

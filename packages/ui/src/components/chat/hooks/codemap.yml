@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: useChatTimelineController.test.ts
+  - path: useChatTimelineController.ts
+  - path: useChatTurnNavigation.ts
+  - path: useStreamingTextThrottle.ts
+  - path: useTurnRecords.ts

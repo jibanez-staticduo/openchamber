@@ -1,0 +1,16 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: DOCUMENTATION.md
+  - path: emitter-runtime.js
+  - path: emitter-runtime.test.js
+  - path: message.js
+  - path: message.test.js
+  - path: push-runtime.js
+  - path: push-runtime.test.js
+  - path: routes.js
+  - path: runtime.js
+  - path: template-runtime.js
+  - path: template-runtime.test.js

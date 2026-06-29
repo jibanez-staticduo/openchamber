@@ -1,0 +1,16 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: DiffViewToggle.tsx
+  - path: FadeInOnReveal.tsx
+  - path: MessageBody.tsx
+  - path: MessageHeader.tsx
+  - path: TextSelectionMenu.tsx
+  - path: ToolOutputDialog.tsx
+  - path: messageRole.ts
+  - path: normalizeUserDisplayParts.ts
+  - path: partUtils.ts
+  - path: renderCompare.ts
+  - path: timeFormat.ts
+  - path: toolRenderers.tsx
+  - path: types.ts

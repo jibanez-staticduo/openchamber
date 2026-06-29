@@ -1,0 +1,21 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: claude.js
+  - path: codex.js
+  - path: copilot.js
+  - path: cursor.js
+  - path: index.test.js
+  - path: kimi.js
+  - path: minimax-cn-coding-plan.js
+  - path: minimax-coding-plan.js
+  - path: minimax-shared.js
+  - path: nanogpt.js
+  - path: ollama-cloud.js
+  - path: openai.js
+  - path: openrouter.js
+  - path: wafer.js
+  - path: zai.js
+  - path: zhipuai-coding-plan.js

@@ -1,0 +1,23 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: ArchiveAllDropdown.tsx
+  - path: DirectoryExplorerDialog.tsx
+  - path: ForkSessionDialog.tsx
+  - path: GitHubIntegrationDialog.tsx
+  - path: GitHubIssuePickerDialog.tsx
+  - path: GitHubPrPickerDialog.tsx
+  - path: NewWorktreeDialog.tsx
+  - path: ProjectNotesTodoPanel.tsx
+  - path: ReviewFlowDialog.tsx
+  - path: SaveProjectPlanDialog.test.tsx
+  - path: SaveProjectPlanDialog.tsx
+  - path: ScheduledTaskEditorDialog.tsx
+  - path: ScheduledTasksDialog.tsx
+  - path: SessionDialogs.tsx
+  - path: SessionFolderItem.tsx
+  - path: SessionSidebar.tsx
+  - path: SessionSwitcherDropdown.tsx
+  - path: SessionsTabTitle.tsx
+  - path: ThinkingPill.tsx
+  - path: TodoSendDialog.tsx

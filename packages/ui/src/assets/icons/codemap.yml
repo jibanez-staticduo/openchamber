@@ -1,0 +1,6 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+purpose: Shared UI icon assets.
+modules:
+  - path: file-types
+    summary: File type icon assets.

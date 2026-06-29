@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: BrowserVoiceButton.tsx
+  - path: VoiceProvider.tsx
+  - path: VoiceStatusIndicator.tsx

@@ -1,0 +1,18 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+purpose: Electron desktop icon assets for Linux, macOS, and Windows packaging.
+internals:
+  - path: app-icon.png
+  - path: app-icon.svg
+  - path: Assets.car
+  - path: dev-icon.icns
+  - path: dev-icon.png
+  - path: icon-win.svg
+  - path: icon.icns
+  - path: icon.ico
+  - path: icon.png
+modules:
+  - path: AppIcon.icon
+    summary: macOS icon bundle resources.
+  - path: tray
+    summary: Tray icon assets.

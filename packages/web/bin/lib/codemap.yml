@@ -1,0 +1,27 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+internals:
+  - path: DOCUMENTATION.md
+  - path: cli-args.js
+  - path: cli-errors.js
+  - path: cli-executables.js
+  - path: cli-http.js
+  - path: cli-lifecycle.js
+  - path: cli-log-files.js
+  - path: cli-network.js
+  - path: cli-paths.js
+  - path: cli-ports.js
+  - path: cli-process.js
+  - path: cli-startup.js
+  - path: cli-tunnel-capabilities.js
+  - path: cli-tunnel-profiles.js
+  - path: cli-tunnel-utils.js
+  - path: commands-connect-url.js
+  - path: commands-lifecycle.js
+  - path: commands-logs.js
+  - path: commands-serve.js
+  - path: commands-startup.js
+  - path: commands-status.js
+  - path: commands-tunnel.js
+  - path: commands-update.js
+  - path: commands-update.test.js

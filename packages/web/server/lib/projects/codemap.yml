@@ -1,0 +1,6 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: project-config.js
+  - path: project-config.test.js
+  - path: project-id.js

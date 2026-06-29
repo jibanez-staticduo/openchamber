@@ -1,0 +1,13 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: ChooserScreen.tsx
+  - path: DesktopConnectionRecovery.tsx
+  - path: LocalSetupScreen.tsx
+  - path: OnboardingScreen.tsx
+  - path: RecoveryScreen.tsx
+  - path: RemoteConnectionForm.tsx
+  - path: desktopRecoveryConfig.test.ts
+  - path: desktopRecoveryConfig.ts
+  - path: desktopRecoveryRouting.test.ts
+  - path: desktopRecoveryRouting.ts

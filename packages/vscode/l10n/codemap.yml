@@ -1,0 +1,5 @@
+scope: module
+parent: ../../../.staticeng/codemap.yml
+internals:
+  - path: bundle.l10n.fr.json
+  - path: bundle.l10n.json

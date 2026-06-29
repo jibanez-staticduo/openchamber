@@ -1,0 +1,12 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: branchSearch.ts
+  - path: pendingDraftWorktree.ts
+  - path: worktreeBootstrap.test.ts
+  - path: worktreeBootstrap.ts
+  - path: worktreeCreate.ts
+  - path: worktreeManager.test.ts
+  - path: worktreeManager.ts
+  - path: worktreeStatus.test.ts
+  - path: worktreeStatus.ts

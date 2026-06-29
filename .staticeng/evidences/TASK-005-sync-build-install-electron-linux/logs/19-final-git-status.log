@@ -1,0 +1,169 @@
+ M .gitignore
+ M .staticeng/evidences/TASK-004-install-fedora-appimage/SUMMARY.md
+ M .staticeng/tasks/current.md
+?? .staticeng/codemap.yml
+?? .staticeng/docs/scrs/current.md
+?? .staticeng/docs/scrs/done.md
+?? .staticeng/tasks/todo/
+?? docs/codemap.yml
+?? packages/codemap.yml
+?? packages/docs/codemap.yml
+?? packages/electron/codemap.yml
+?? packages/electron/resources/codemap.yml
+?? packages/electron/resources/icons/AppIcon.icon/codemap.yml
+?? packages/electron/resources/icons/codemap.yml
+?? packages/electron/scripts/codemap.yml
+?? packages/ui/codemap.yml
+?? packages/ui/src/apps/codemap.yml
+?? packages/ui/src/assets/codemap.yml
+?? packages/ui/src/assets/icons/codemap.yml
+?? packages/ui/src/assets/icons/file-types/codemap.yml
+?? packages/ui/src/codemap.yml
+?? packages/ui/src/components/auth/codemap.yml
+?? packages/ui/src/components/chat/__tests__/codemap.yml
+?? packages/ui/src/components/chat/codemap.yml
+?? packages/ui/src/components/chat/components/codemap.yml
+?? packages/ui/src/components/chat/hooks/codemap.yml
+?? packages/ui/src/components/chat/lib/codemap.yml
+?? packages/ui/src/components/chat/lib/scroll/codemap.yml
+?? packages/ui/src/components/chat/lib/turns/codemap.yml
+?? packages/ui/src/components/chat/markdown/codemap.yml
+?? packages/ui/src/components/chat/message/codemap.yml
+?? packages/ui/src/components/chat/message/parts/__tests__/codemap.yml
+?? packages/ui/src/components/chat/message/parts/codemap.yml
+?? packages/ui/src/components/code/codemap.yml
+?? packages/ui/src/components/codemap.yml
+?? packages/ui/src/components/comments/codemap.yml
+?? packages/ui/src/components/desktop/codemap.yml
+?? packages/ui/src/components/diagram/codemap.yml
+?? packages/ui/src/components/icon/codemap.yml
+?? packages/ui/src/components/icons/codemap.yml
+?? packages/ui/src/components/layout/__tests__/codemap.yml
+?? packages/ui/src/components/layout/codemap.yml
+?? packages/ui/src/components/mcp/codemap.yml
+?? packages/ui/src/components/mini-chat/codemap.yml
+?? packages/ui/src/components/model-picker/codemap.yml
+?? packages/ui/src/components/multirun/codemap.yml
+?? packages/ui/src/components/onboarding/codemap.yml
+?? packages/ui/src/components/providers/codemap.yml
+?? packages/ui/src/components/sections/agents/codemap.yml
+?? packages/ui/src/components/sections/behavior/codemap.yml
+?? packages/ui/src/components/sections/codemap.yml
+?? packages/ui/src/components/sections/commands/codemap.yml
+?? packages/ui/src/components/sections/git-identities/codemap.yml
+?? packages/ui/src/components/sections/magic-prompts/codemap.yml
+?? packages/ui/src/components/sections/mcp/codemap.yml
+?? packages/ui/src/components/sections/openchamber/codemap.yml
+?? packages/ui/src/components/sections/plugins/codemap.yml
+?? packages/ui/src/components/sections/projects/codemap.yml
+?? packages/ui/src/components/sections/providers/codemap.yml
+?? packages/ui/src/components/sections/remote-instances/codemap.yml
+?? packages/ui/src/components/sections/shared/codemap.yml
+?? packages/ui/src/components/sections/skills/catalog/codemap.yml
+?? packages/ui/src/components/sections/skills/codemap.yml
+?? packages/ui/src/components/sections/snippets/codemap.yml
+?? packages/ui/src/components/sections/usage/codemap.yml
+?? packages/ui/src/components/session/codemap.yml
+?? packages/ui/src/components/session/sidebar/codemap.yml
+?? packages/ui/src/components/session/sidebar/hooks/codemap.yml
+?? packages/ui/src/components/terminal/codemap.yml
+?? packages/ui/src/components/ui/codemap.yml
+?? packages/ui/src/components/update/__tests__/codemap.yml
+?? packages/ui/src/components/update/codemap.yml
+?? packages/ui/src/components/views/agent-manager/codemap.yml
+?? packages/ui/src/components/views/codemap.yml
+?? packages/ui/src/components/views/git/codemap.yml
+?? packages/ui/src/components/voice/codemap.yml
+?? packages/ui/src/constants/codemap.yml
+?? packages/ui/src/contexts/codemap.yml
+?? packages/ui/src/hooks/codemap.yml
+?? packages/ui/src/lib/api/codemap.yml
+?? packages/ui/src/lib/codemap.yml
+?? packages/ui/src/lib/codemirror/codemap.yml
+?? packages/ui/src/lib/diff/codemap.yml
+?? packages/ui/src/lib/git/codemap.yml
+?? packages/ui/src/lib/i18n/codemap.yml
+?? packages/ui/src/lib/i18n/messages/codemap.yml
+?? packages/ui/src/lib/messages/codemap.yml
+?? packages/ui/src/lib/multirun/codemap.yml
+?? packages/ui/src/lib/opencode/codemap.yml
+?? packages/ui/src/lib/permissions/codemap.yml
+?? packages/ui/src/lib/preview/codemap.yml
+?? packages/ui/src/lib/quota/codemap.yml
+?? packages/ui/src/lib/quota/providers/codemap.yml
+?? packages/ui/src/lib/router/codemap.yml
+?? packages/ui/src/lib/search/codemap.yml
+?? packages/ui/src/lib/settings/codemap.yml
+?? packages/ui/src/lib/shiki/codemap.yml
+?? packages/ui/src/lib/theme/codemap.yml
+?? packages/ui/src/lib/theme/themes/codemap.yml
+?? packages/ui/src/lib/theme/vscode/codemap.yml
+?? packages/ui/src/lib/voice/codemap.yml
+?? packages/ui/src/lib/worktrees/codemap.yml
+?? packages/ui/src/stores/codemap.yml
+?? packages/ui/src/stores/types/codemap.yml
+?? packages/ui/src/stores/utils/codemap.yml
+?? packages/ui/src/styles/codemap.yml
+?? packages/ui/src/sync/__tests__/codemap.yml
+?? packages/ui/src/sync/codemap.yml
+?? packages/ui/src/types/codemap.yml
+?? packages/vscode/codemap.yml
+?? packages/vscode/l10n/codemap.yml
+?? packages/vscode/src/codemap.yml
+?? packages/vscode/webview/api/codemap.yml
+?? packages/vscode/webview/codemap.yml
+?? packages/web/bin/codemap.yml
+?? packages/web/bin/lib/codemap.yml
+?? packages/web/codemap.yml
+?? packages/web/server/codemap.yml
+?? packages/web/server/lib/client-auth/codemap.yml
+?? packages/web/server/lib/codemap.yml
+?? packages/web/server/lib/event-stream/codemap.yml
+?? packages/web/server/lib/fs/codemap.yml
+?? packages/web/server/lib/git/codemap.yml
+?? packages/web/server/lib/github/codemap.yml
+?? packages/web/server/lib/github/repo/codemap.yml
+?? packages/web/server/lib/magic-prompts/codemap.yml
+?? packages/web/server/lib/notifications/codemap.yml
+?? packages/web/server/lib/opencode/codemap.yml
+?? packages/web/server/lib/preview/codemap.yml
+?? packages/web/server/lib/projects/codemap.yml
+?? packages/web/server/lib/quota/codemap.yml
+?? packages/web/server/lib/quota/providers/codemap.yml
+?? packages/web/server/lib/quota/providers/google/codemap.yml
+?? packages/web/server/lib/quota/utils/codemap.yml
+?? packages/web/server/lib/scheduled-tasks/codemap.yml
+?? packages/web/server/lib/security/codemap.yml
+?? packages/web/server/lib/session-folders/codemap.yml
+?? packages/web/server/lib/skills-catalog/clawdhub/codemap.yml
+?? packages/web/server/lib/skills-catalog/codemap.yml
+?? packages/web/server/lib/terminal/codemap.yml
+?? packages/web/server/lib/text/codemap.yml
+?? packages/web/server/lib/tts/codemap.yml
+?? packages/web/server/lib/tunnels/codemap.yml
+?? packages/web/server/lib/tunnels/providers/codemap.yml
+?? packages/web/server/lib/ui-auth/codemap.yml
+?? packages/web/src/api/codemap.yml
+?? packages/web/src/codemap.yml
+?? packages/web/test/codemap.yml
+?? scripts/codemap.yml
+
+Ahead/behind HEAD...upstream/main:
+4	0
+
+Recent commits:
+68a46974 (HEAD -> jibanez-linux-electron-app) Merge remote-tracking branch 'upstream/main' into jibanez-linux-electron-app
+f9339968 (tag: v1.13.8, upstream/main, upstream/HEAD) release v1.13.8
+de43af60 (origin/jibanez-linux-electron-app) chore: TASK-004 record fedora appimage install
+9209dc48 fix(github): skip PR status resolution for a directory that no longer exists
+431b9c61 perf(github): resolve remote candidates and repo metadata concurrently
+f0298972 feat(github): detect rate limiting and pause PR status calls during cooldown
+77bc2cc8 fix(github): add a per-request timeout to all Octokit calls
+4513bd08 fix(git): don't log an error when status is requested for a deleted directory
+
+Artifact:
+-rwxr-xr-x 1 staticduo staticduo 147122143 jun 29 06:53 packages/electron/dist/OpenChamber-1.13.8-linux-x86_64.AppImage
+
+Checksums:
+6ab6715e79167e6afa6e4565fb17b281c07709448c2b61b907e6942e8fedb896  packages/electron/dist/OpenChamber-1.13.8-linux-x86_64.AppImage
+6ab6715e79167e6afa6e4565fb17b281c07709448c2b61b907e6942e8fedb896  /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage

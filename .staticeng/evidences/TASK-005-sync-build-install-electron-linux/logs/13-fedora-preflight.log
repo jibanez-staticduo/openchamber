@@ -1,0 +1,4 @@
+user=staticduo home=/home/staticduo host=fedora
+/usr/bin/desktop-file-validate
+/usr/bin/update-desktop-database
+/usr/bin/gtk-update-icon-cache

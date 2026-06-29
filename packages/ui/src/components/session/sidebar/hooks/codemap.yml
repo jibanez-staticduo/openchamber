@@ -1,0 +1,19 @@
+scope: module
+parent: ../../../../../../../.staticeng/codemap.yml
+internals:
+  - path: useArchivedAutoFolders.ts
+  - path: useGroupOrdering.ts
+  - path: useProjectRepoStatus.ts
+  - path: useProjectSessionLists.ts
+  - path: useProjectSessionSelection.test.ts
+  - path: useProjectSessionSelection.ts
+  - path: useSessionActions.ts
+  - path: useSessionFolderCleanup.ts
+  - path: useSessionGrouping.ts
+  - path: useSessionPrefetch.ts
+  - path: useSessionSearchEffects.ts
+  - path: useSessionSidebarSections.ts
+  - path: useSidebarBulkActions.ts
+  - path: useSidebarPersistence.ts
+  - path: useStickyProjectHeaders.ts
+  - path: useSwitcherItems.ts

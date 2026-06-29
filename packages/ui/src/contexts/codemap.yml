@@ -1,0 +1,17 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+internals:
+  - path: DiffWorkerProvider.tsx
+  - path: DrawerContext.tsx
+  - path: FireworksContext.tsx
+  - path: RuntimeAPIProvider.tsx
+  - path: ThemeSystemContext.test.ts
+  - path: ThemeSystemContext.tsx
+  - path: runtimeAPIContext.ts
+  - path: runtimeAPIRegistry.ts
+  - path: theme-embedded-bootstrap.ts
+  - path: theme-sync-payload.test.ts
+  - path: theme-sync-payload.ts
+  - path: theme-system-context.ts
+  - path: theme-validation.ts
+  - path: useThemeSystem.ts

@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: decorate.ts
+  - path: markdown-shiki.worker.ts
+  - path: markdown-worker-protocol.ts
+  - path: markdown-worker.ts
+  - path: markdownCore.ts
+  - path: markdownShikiThemeDefinition.ts
+  - path: markdownTheme.ts

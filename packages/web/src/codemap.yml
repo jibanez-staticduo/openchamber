@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../.staticeng/codemap.yml
+entrypoints:
+  - path: main.tsx
+internals:
+  - path: mini-chat-main.tsx
+  - path: mobile-main.tsx
+  - path: pwa.d.ts
+  - path: runtimeConfig.ts
+  - path: sw.ts

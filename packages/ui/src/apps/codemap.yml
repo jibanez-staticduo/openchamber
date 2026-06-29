@@ -1,0 +1,18 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+internals:
+  - path: AppEffects.tsx
+  - path: ElectronMiniChatApp.tsx
+  - path: MobileApp.tsx
+  - path: MobileChangesSurface.tsx
+  - path: MobileDeleteWorktreeDialog.tsx
+  - path: MobileFilesSurface.tsx
+  - path: MobileProjectEditSurface.tsx
+  - path: MobileSessionsSheet.tsx
+  - path: MobileSurfaceShell.tsx
+  - path: VSCodeApp.tsx
+  - path: mobileAppContext.tsx
+  - path: renderElectronMiniChatApp.tsx
+  - path: renderMobileApp.tsx
+  - path: renderVSCodeApp.tsx
+  - path: useAppFontEffects.ts

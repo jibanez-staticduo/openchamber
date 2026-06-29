@@ -1,0 +1,21 @@
+scope: repo
+name: openchamber
+purpose: >
+  Repository navigation index. Points to current-state product specs, process
+  docs, and module entrypoints.
+code_roots:
+  - src/
+  - agents/
+  - docs/
+links: []
+entrypoints: []
+commands:
+  test: echo 'No global test command defined'
+  lint: echo 'No global lint command defined'
+modules:
+  - path: docs
+    summary: Maintained source module.
+  - path: packages
+    summary: Maintained source module.
+  - path: scripts
+    summary: Maintained source module.

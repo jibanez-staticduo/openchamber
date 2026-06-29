@@ -1,0 +1,18 @@
+scope: module
+parent: ../../../../../../../.staticeng/codemap.yml
+internals:
+  - path: applyRetryOverlay.ts
+  - path: constants.ts
+  - path: historySignals.ts
+  - path: projectTurnActivity.ts
+  - path: projectTurnIndexes.ts
+  - path: projectTurnRecords.test.ts
+  - path: projectTurnRecords.ts
+  - path: projectTurnSummary.ts
+  - path: streamingTailEntry.test.ts
+  - path: streamingTailEntry.ts
+  - path: turnProjectionCache.test.ts
+  - path: turnProjectionCache.ts
+  - path: types.ts
+  - path: windowTurns.test.ts
+  - path: windowTurns.ts

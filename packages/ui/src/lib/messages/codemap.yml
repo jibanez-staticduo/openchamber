@@ -1,0 +1,11 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: agentMentions.ts
+  - path: executionMeta.ts
+  - path: inlineComments.ts
+  - path: inlineMessageLinks.ts
+  - path: messageText.ts
+  - path: providerAuthError.ts
+  - path: synthetic.test.ts
+  - path: synthetic.ts

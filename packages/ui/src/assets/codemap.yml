@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+purpose: Shared UI static assets.
+modules:
+  - path: icons
+    summary: Shared icon asset sources.
+  - path: provider-logos
+    summary: Provider logo assets.

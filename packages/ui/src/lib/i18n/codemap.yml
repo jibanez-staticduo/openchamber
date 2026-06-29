@@ -1,0 +1,14 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: bootstrap.ts
+  - path: context.tsx
+  - path: intl.ts
+  - path: messages.test.ts
+  - path: react-context.ts
+  - path: runtime.ts
+  - path: store.test.ts
+  - path: store.ts
+  - path: useI18n.ts

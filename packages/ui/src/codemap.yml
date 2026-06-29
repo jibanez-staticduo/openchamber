@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../.staticeng/codemap.yml
+entrypoints:
+  - path: main.tsx
+internals:
+  - path: App.tsx
+  - path: vite-env.d.ts

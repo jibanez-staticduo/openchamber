@@ -1,0 +1,21 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: AboutSettings.tsx
+  - path: DefaultsSettings.tsx
+  - path: DesktopNetworkSettings.tsx
+  - path: GitHubSettings.tsx
+  - path: GitSettings.tsx
+  - path: KeyboardShortcutsSettings.tsx
+  - path: NotificationSettings.tsx
+  - path: OpenChamberPage.tsx
+  - path: OpenChamberVisualSettings.tsx
+  - path: OpenCodeCliSettings.tsx
+  - path: PasskeySettings.tsx
+  - path: SessionRetentionSettings.tsx
+  - path: TunnelSettings.tsx
+  - path: VoiceSettings.tsx
+  - path: WorktreeSectionContent.tsx
+  - path: types.ts
+  - path: voicePreviewAudio.test.ts
+  - path: voicePreviewAudio.ts

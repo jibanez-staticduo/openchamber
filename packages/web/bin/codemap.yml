@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../.staticeng/codemap.yml
+internals:
+  - path: cli-entry.js
+  - path: cli-output.js
+  - path: cli-output.test.js
+  - path: cli.js
+  - path: cli.test.js

@@ -1,0 +1,17 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: bridge.test.ts
+  - path: bridge.ts
+  - path: editor.ts
+  - path: files.ts
+  - path: git.ts
+  - path: github.ts
+  - path: notifications.ts
+  - path: permissions.ts
+  - path: settings.ts
+  - path: streamPerf.ts
+  - path: tools.ts
+  - path: vscode.ts

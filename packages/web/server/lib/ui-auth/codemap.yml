@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: DOCUMENTATION.md
+  - path: ui-auth.js
+  - path: ui-auth.test.js
+  - path: ui-passkeys.js

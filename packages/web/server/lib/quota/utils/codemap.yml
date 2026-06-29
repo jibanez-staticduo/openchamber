@@ -1,0 +1,9 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: auth.js
+  - path: formatters.js
+  - path: formatters.test.js
+  - path: transformers.js

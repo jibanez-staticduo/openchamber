@@ -1,0 +1,14 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: DOCUMENTATION.md
+  - path: auth.js
+  - path: device-flow.js
+  - path: gh-cli-credential.js
+  - path: gh-cli-credential.test.js
+  - path: octokit.js
+  - path: pr-status.js
+  - path: rate-limit.js
+  - path: routes.js

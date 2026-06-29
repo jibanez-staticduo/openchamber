@@ -1,0 +1,5 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: proxy-runtime.js
+  - path: proxy-runtime.test.js

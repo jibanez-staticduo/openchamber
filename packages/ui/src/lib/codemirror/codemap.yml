@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: flexokiTheme.ts
+  - path: languageByExtension.ts
+  - path: shikiHighlight.ts
+  - path: vimModeExtension.ts

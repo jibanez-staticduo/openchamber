@@ -1,0 +1,9 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: McpOAuthCallbackPage.tsx
+  - path: McpPage.tsx
+  - path: McpSidebar.tsx
+  - path: mcpImport.test.ts
+  - path: mcpImport.ts
+  - path: mcpOAuth.ts

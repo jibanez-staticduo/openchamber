@@ -1,0 +1,47 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: AboutDialog.tsx
+  - path: CodeMirrorEditor.tsx
+  - path: CommandPalette.tsx
+  - path: ConfigUpdateOverlay.tsx
+  - path: ContextUsageDisplay.tsx
+  - path: ErrorBoundary.tsx
+  - path: FireworksAnimation.tsx
+  - path: HelpDialog.tsx
+  - path: JsonTreeView.tsx
+  - path: JsonTreeViewer.tsx
+  - path: MemoryDebugPanel.tsx
+  - path: MobileOverlayPanel.tsx
+  - path: OpenChamberLogo.tsx
+  - path: OpenCodeStatusDialog.tsx
+  - path: OverlayScrollbar.tsx
+  - path: ProviderLogo.tsx
+  - path: ScrollShadow.tsx
+  - path: ScrollableOverlay.tsx
+  - path: UpdateDialog.tsx
+  - path: button.test.tsx
+  - path: button.tsx
+  - path: card.tsx
+  - path: checkbox.tsx
+  - path: collapsible.tsx
+  - path: command.tsx
+  - path: context-menu.tsx
+  - path: dialog.tsx
+  - path: dropdown-menu.styles.ts
+  - path: dropdown-menu.tsx
+  - path: input.tsx
+  - path: number-input.tsx
+  - path: radio.tsx
+  - path: select.tsx
+  - path: skeleton.tsx
+  - path: slot.tsx
+  - path: sonner.tsx
+  - path: sortable-tabs-strip.tsx
+  - path: switch.tsx
+  - path: text.tsx
+  - path: textarea.tsx
+  - path: toast.ts
+  - path: tooltip.tsx

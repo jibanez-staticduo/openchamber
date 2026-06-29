@@ -1,0 +1,5 @@
+scope: module
+parent: ../.staticeng/codemap.yml
+internals:
+  - path: CUSTOM_THEMES.md
+  - path: REVERSE_PROXY.md

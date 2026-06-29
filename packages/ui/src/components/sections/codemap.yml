@@ -1,0 +1,34 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+purpose: Settings and configuration sections in the shared UI.
+modules:
+  - path: agents
+    summary: Agent settings section.
+  - path: behavior
+    summary: Behavior settings section.
+  - path: commands
+    summary: Commands settings section.
+  - path: git-identities
+    summary: Git identity settings section.
+  - path: magic-prompts
+    summary: Magic prompts settings section.
+  - path: mcp
+    summary: MCP settings section.
+  - path: openchamber
+    summary: OpenChamber settings section.
+  - path: plugins
+    summary: Plugin settings section.
+  - path: projects
+    summary: Project settings section.
+  - path: providers
+    summary: Provider settings section.
+  - path: remote-instances
+    summary: Remote instance settings section.
+  - path: shared
+    summary: Shared settings UI primitives.
+  - path: skills
+    summary: Skills settings section.
+  - path: snippets
+    summary: Snippets settings section.
+  - path: usage
+    summary: Usage settings section.

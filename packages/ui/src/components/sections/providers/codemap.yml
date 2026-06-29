@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: ProvidersPage.test.ts
+  - path: ProvidersPage.tsx
+  - path: ProvidersSidebar.tsx
+  - path: providerAvailability.ts

@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+internals:
+  - path: DOCUMENTATION.md
+  - path: cache.js
+  - path: curated-sources.js
+  - path: git.js
+  - path: install.js
+  - path: scan.js
+  - path: source.js

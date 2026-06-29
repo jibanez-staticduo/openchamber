@@ -1,0 +1,7 @@
+scope: module
+parent: ../../../../../../../.staticeng/codemap.yml
+internals:
+  - path: AddCatalogDialog.tsx
+  - path: InstallConflictsDialog.tsx
+  - path: InstallSkillDialog.tsx
+  - path: SkillsCatalogPage.tsx

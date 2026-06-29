@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: AgentSelector.tsx
+  - path: BranchSelector.tsx
+  - path: ModelMultiSelect.tsx
+  - path: MultiRunFusionDialog.tsx
+  - path: MultiRunLauncher.tsx

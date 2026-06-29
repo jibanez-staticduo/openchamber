@@ -1,0 +1,10 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+internals:
+  - path: cloudflare-tunnel.js
+  - path: ngrok-tunnel.js
+  - path: ngrok-tunnel.test.js
+  - path: package-manager.js
+  - path: package-manager.test.js
+  - path: path-realpath-cache.js
+  - path: path-realpath-cache.test.js

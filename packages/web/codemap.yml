@@ -1,0 +1,8 @@
+scope: module
+parent: ../../.staticeng/codemap.yml
+internals:
+  - path: README.md
+  - path: package.json
+  - path: tsconfig.json
+  - path: vite.config.ts
+  - path: vitest.config.ts

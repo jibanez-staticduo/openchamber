@@ -1,0 +1,6 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: SkillsPage.tsx
+  - path: SkillsSidebar.tsx
+  - path: skillLocations.ts

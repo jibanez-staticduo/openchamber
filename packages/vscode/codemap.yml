@@ -1,0 +1,11 @@
+scope: module
+parent: ../../.staticeng/codemap.yml
+internals:
+  - path: CHANGELOG.md
+  - path: README.md
+  - path: package.json
+  - path: package.nls.fr.json
+  - path: package.nls.json
+  - path: tsconfig.json
+  - path: tsconfig.webview.json
+  - path: vite.config.ts

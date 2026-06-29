@@ -1,0 +1,21 @@
+artifact_sha256  6ab6715e79167e6afa6e4565fb17b281c07709448c2b61b907e6942e8fedb896  packages/electron/dist/OpenChamber-1.13.8-linux-x86_64.AppImage
+installed_sha256 6ab6715e79167e6afa6e4565fb17b281c07709448c2b61b907e6942e8fedb896  /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage
+-rwxr-xr-x 1 staticduo staticduo        92 jun 29 06:53 /home/staticduo/.local/bin/openchamber-desktop
+-rwxr-xr-x 1 staticduo staticduo 147122143 jun 29 06:53 /home/staticduo/.local/opt/openchamber/OpenChamber.AppImage
+-rw-r--r-- 1 staticduo staticduo       230 jun 29 06:53 /home/staticduo/.local/share/applications/openchamber.desktop
+-rw-r--r-- 1 staticduo staticduo     55246 jun 29 06:53 /home/staticduo/.local/share/icons/hicolor/256x256/apps/openchamber.png
+
+wrapper:
+#!/usr/bin/env bash
+exec "/home/staticduo/.local/opt/openchamber/OpenChamber.AppImage" "$@"
+
+desktop:
+[Desktop Entry]
+Type=Application
+Name=OpenChamber
+Comment=Desktop runtime for OpenChamber
+Exec="/home/staticduo/.local/bin/openchamber-desktop" %U
+Icon=openchamber
+Terminal=false
+Categories=Development;
+StartupWMClass=openchamber

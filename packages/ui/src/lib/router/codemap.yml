@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: parseRoute.ts
+  - path: serializeRoute.ts
+  - path: types.ts

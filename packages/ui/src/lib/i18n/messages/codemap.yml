@@ -1,0 +1,23 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: en.settings.ts
+  - path: en.ts
+  - path: es.settings.ts
+  - path: es.ts
+  - path: fr.settings.ts
+  - path: fr.ts
+  - path: ja.settings.ts
+  - path: ja.ts
+  - path: ko.settings.ts
+  - path: ko.ts
+  - path: pl.settings.ts
+  - path: pl.ts
+  - path: pt-BR.settings.ts
+  - path: pt-BR.ts
+  - path: uk.settings.ts
+  - path: uk.ts
+  - path: zh-CN.settings.ts
+  - path: zh-CN.ts
+  - path: zh-TW.settings.ts
+  - path: zh-TW.ts

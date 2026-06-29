@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: PaceIndicator.tsx
+  - path: UsageCard.tsx
+  - path: UsagePage.tsx
+  - path: UsageProgressBar.tsx
+  - path: UsageSidebar.tsx

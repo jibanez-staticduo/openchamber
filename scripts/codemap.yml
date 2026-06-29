@@ -1,0 +1,7 @@
+scope: module
+parent: ../.staticeng/codemap.yml
+internals:
+  - path: docker-entrypoint.sh
+  - path: install.sh
+  - path: port-opencode-theme.ts
+  - path: test-release-build.sh

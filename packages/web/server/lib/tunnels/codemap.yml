@@ -1,0 +1,16 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: DOCUMENTATION.md
+  - path: executable-search.js
+  - path: executable-search.test.js
+  - path: index.test.js
+  - path: install-help.js
+  - path: install-help.test.js
+  - path: managed-config.js
+  - path: registry.js
+  - path: routes.js
+  - path: types.js
+  - path: types.test.js

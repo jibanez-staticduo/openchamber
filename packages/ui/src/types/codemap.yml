@@ -1,0 +1,19 @@
+scope: module
+parent: ../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.ts
+internals:
+  - path: bun-test.d.ts
+  - path: codemirror-lang-elixir.d.ts
+  - path: desktop.d.ts
+  - path: ghostty-web.d.ts
+  - path: multirun.ts
+  - path: permission.ts
+  - path: question.ts
+  - path: quota.ts
+  - path: snippet.ts
+  - path: theme.ts
+  - path: vscode.d.ts
+  - path: worktree.ts
+  - path: xenova-transformers.d.ts
+  - path: zumer-snapdom.d.ts

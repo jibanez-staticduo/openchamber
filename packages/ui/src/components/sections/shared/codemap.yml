@@ -1,0 +1,8 @@
+scope: module
+parent: ../../../../../../.staticeng/codemap.yml
+internals:
+  - path: SettingsPageLayout.tsx
+  - path: SettingsProjectSelector.tsx
+  - path: SettingsSidebarItem.tsx
+  - path: SettingsSidebarLayout.tsx
+  - path: SidebarGroup.tsx

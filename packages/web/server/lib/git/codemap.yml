@@ -1,0 +1,12 @@
+scope: module
+parent: ../../../../../.staticeng/codemap.yml
+entrypoints:
+  - path: index.js
+internals:
+  - path: DOCUMENTATION.md
+  - path: credentials.js
+  - path: identity-storage.js
+  - path: routes.js
+  - path: routes.test.js
+  - path: service.js
+  - path: service.test.js
